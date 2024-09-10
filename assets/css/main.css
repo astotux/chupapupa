@@ -1,6 +1,7 @@
 :root {
     --color-grey: #25252C;
     --color-white: #fff;
+    --color-light-grey: #A0A0A0;
 }
 * {
     font-family: "Golos Text", sans-serif;
@@ -186,5 +187,39 @@ box-shadow: -9px 98px 27px 0px #00000000;
 .smeta div img{
     width: 753px;
     height: 362px;
-
+}
+.resons li{
+    align-items: center;
+    display: flex;
+    gap:25px;
+    margin-bottom: 20px;
+}
+.resons li img{
+    width: 32px;
+    height: 32px;
+}
+.circle{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: transparent;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    border: var(--color-light-grey) 2px solid;
+}
+.why{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.why-title{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 31.52px;
+}
+.why-cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
