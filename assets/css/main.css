@@ -1,6 +1,6 @@
 :root {
     --color-grey: #25252C;
-
+    --color-white: #fff;
 }
 * {
     font-family: "Golos Text", sans-serif;
@@ -89,4 +89,89 @@
 .oval-img {
     position: absolute;
     margin-left: 1450px;
+}
+.container {
+    padding: 0px 50px;
+}
+
+.main {
+
+}
+.about-container {
+    padding: 137px 0;
+    width: 100%;
+    background-color: var(--color-grey);
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.about-container-1 {
+    margin-left: 100px;
+    transform: rotate(-90deg);
+    color: #fff;
+    opacity: 10%;
+    box-shadow: 0px 0px 0px 0px #0000001A;
+box-shadow: 0px 4px 9px 0px #0000001A;
+box-shadow: -1px 16px 16px 0px #00000017;
+box-shadow: -3px 35px 21px 0px #0000000D;
+box-shadow: -6px 62px 25px 0px #00000003;
+box-shadow: -9px 98px 27px 0px #00000000;
+
+}
+
+.about-container-2 {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 200px;
+}
+.about-count {
+    font-size: 24px;
+    color: #fff;
+    opacity: 10%;
+}
+.about-count.active {
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    opacity: 100%;
+}
+.about-container-3 {
+    margin-left: 200px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.about-container-3 div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-container-3 div.d1 {
+    gap: 60px;
+}
+.about-container-3 div.d {
+    flex-direction: column;
+    gap: 15px;
+}
+.about-title {
+    padding-top: 150px;
+    font-family: "Oranienbaum", sans-serif;
+    font-size: 70px;
+    color: var(--color-white);
+}
+.video-img {
+}
+.about-p {
+    font-weight: 100;
+    color: var(--color-white);
+    margin-left: 450px;
+    width: 500px;
+}
+.about-p-1 {
+
+}
+.about-p-2 {
 }
