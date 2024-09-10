@@ -1,0 +1,35 @@
+.background-container{
+    max-width: 2560px;
+}
+.banner-container {
+    position: relative;
+}
+.banner-img{
+    width: 100%;
+    height: 911px;
+    background-image: url('../image/background.png');
+    background-size: cover;
+}
+.bg-image{
+    position: relative;
+    display: flex;
+}
+.logo{
+    color: white;
+    font-weight: 20;
+}
+.nav-cont{
+    position: absolute;
+    width: 1800px;
+    top: 30px;
+    /* right: 30px; */
+    left: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav-cont div ul{
+    display: flex;
+    gap: 18px;
+    color: white;
+}
