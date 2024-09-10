@@ -1,3 +1,10 @@
+:root {
+    --color-grey: #25252C;
+
+}
+* {
+    font-family: "Golos Text", sans-serif;
+}
 .background-container{
     max-width: 2560px;
 }
@@ -16,7 +23,8 @@
 }
 .logo{
     color: white;
-    font-weight: 20;
+    font-weight: bold;
+    font-size: 30px;
 }
 .nav-cont{
     position: absolute;
@@ -30,6 +38,55 @@
 }
 .nav-cont div ul{
     display: flex;
-    gap: 18px;
+    gap: 20px;
     color: white;
+    font-size: 20px;
+}
+.banner-text{
+    
+    position: absolute;
+    top: 300px;
+    left: 140px;
+}
+.up-title{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18.2px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: white;
+}
+.title{
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 81.36px;
+    text-align: left;
+    color: white;
+    margin-bottom: 20px;
+}
+.down-title{
+
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22.6px;
+    text-align: left;
+    color: white;
+}
+.arrow-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 70px;
+    width: 300px;
+    background-color: var(--color-grey);
+    border-radius: 500px;
+    margin-top: 45px;
+}
+.arror-p {
+    color: white;
+}
+.oval-img {
+    position: absolute;
+    margin-left: 1450px;
 }
