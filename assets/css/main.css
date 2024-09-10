@@ -170,8 +170,21 @@ box-shadow: -9px 98px 27px 0px #00000000;
     margin-left: 450px;
     width: 500px;
 }
-.about-p-1 {
+.smeta{
+    display: flex;
+    margin: 187px 300px;
+    align-items: center;
+    justify-content: space-around;
+}
+.smeta-title{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 31.52px;
+    text-align: left;
 
 }
-.about-p-2 {
+.smeta div img{
+    width: 753px;
+    height: 362px;
+
 }
