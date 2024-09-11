@@ -16,3 +16,4 @@ document.querySelector('.prev').addEventListener('click', () => {
 function updateSlider() {
     slides.style.transform = `translateX(-${currentIndex * 33.33}%)`; // Show 3 slides instead of 1
 }
+//я лох
